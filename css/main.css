@@ -14,7 +14,7 @@ body {
 	float: left;
 }
 
-.ryu-still, .ryu-ready, .ryu-throwing {
+.ryu-still, .ryu-ready, .ryu-throwing, .ryu-cool {
 	width: 659px;
 	height: 494px;
 }
@@ -52,4 +52,21 @@ body {
   top: 167px;
   left: -212px;
   float: left;
+}
+
+.ryu-cool {
+	display: none;
+	background-image: url('../images/ryu-cool.gif');
+
+}
+
+.instructions {
+	font-size: 3em;
+	position: fixed;
+	top: 400px;
+	left: 700px;
+	width: 500px;
+	font-family: arial;
+
+
 }
